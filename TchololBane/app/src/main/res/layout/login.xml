@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/logo" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/identifiant"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/logo"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Identifiant"
+            android:text="0753144702"
+            android:textSize="16dp"
+            android:drawableLeft="@drawable/ic_action_user"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/motdepasse"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Mot de passe"
+            android:text="azerty"
+            android:textSize="16dp"
+            android:drawableLeft="@drawable/ic_action_lock"
+            />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sidentifier"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="20dp"
+        app:cardBackgroundColor="#68A8F7">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S'identifier"
+                android:textColor="#ffff"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/senregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="S'enregistrer"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        />
+
+</LinearLayout>

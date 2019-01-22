@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "306661995306",
+    "firebase_url": "https://tchololbane.firebaseio.com",
+    "project_id": "tchololbane",
+    "storage_bucket": "tchololbane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306661995306:android:e380137b297e9b99",
+        "android_client_info": {
+          "package_name": "com.example.mohamed.tchololbane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306661995306-tista56t3rk10rv72qqqejg3fdpbpma1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5EnJVw6ZaAO9ef2Bdn9VyaZsjRT4QoD4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

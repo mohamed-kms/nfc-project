@@ -1,0 +1,46 @@
+
+{
+  "Categories": {
+    "01": {
+      "Nom": "MERVEILLES AFRICAINES",
+      "Image": "https://image.noelshack.com/fichiers/2018/26/1/1529938654-gout-de-foudre-ou-bouffe.jpg"
+    },
+    "02": {
+      "Nom": "MERVEILLES ASIATIQUES",
+      "Image": "https://image.noelshack.com/fichiers/2018/26/1/1529938558-dessert.jpg"
+    },
+    "03": {
+      "Nom": "MERVEILLES EUROPEENNES",
+      "Image": "https://image.noelshack.com/fichiers/2018/27/7/1531054467-2018-food-trends-ft-blog1117.jpg"
+    },
+    "04": {
+      "Nom": "MERVEILLES AMERICAINES",
+      "Image": "https://image.noelshack.com/fichiers/2018/27/7/1531054489-pexels-photo-247685.png"
+    },
+    "05": {
+      "Nom": "MERVEILLES NIGERIENNE",
+      "Image": "https://image.noelshack.com/fichiers/2018/27/7/1531054476-1515456591895.jpg"
+    },
+    "06": {
+      "Nom": "MERVEILLES INDIENNES",
+      "Image": "https://image.noelshack.com/fichiers/2018/27/7/1531054841-wide-middle-eastern-food.jpg"
+    },
+    "07": {
+      "Nom": "MERVEILLES ORIENTALES",
+      "Image": "https://image.noelshack.com/fichiers/2018/26/1/1529938558-dessert.jpg"
+    }
+  }
+,
+ "User" : {
+    "85000088" : {
+      "mailto" : "askiamk@gmail.com",
+      "name" : "Mohamed KMS",
+      "password" : "askiamohamed"
+    },
+    "0761881993" : {
+      "mailto" : "abcd@gmail.com",
+      "name" : "Yasser",
+      "password" : "abcdef"
+    }
+  }
+}

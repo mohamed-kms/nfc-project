@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chicken_salad"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/usrPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero de Téléphone"
+            android:textColorHint="@android:color/white"
+            android:text="0753144701"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/usrName"
+            android:hint="Nom"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Askia Mohamed"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/usrMailto"
+            android:hint="Adresse Mail"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="askiamk@gmail.com"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/usrPassword"
+            android:hint="Mot de passe"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="askiamohamed"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="textPassword" />
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/signUp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                app:cardBackgroundColor="@color/signUp"
+                app:cardElevation="4dp"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp"
+                app:cornerRadius="25dp"
+                app:shadowColor="@android:color/black"
+                android:layout_alignParentBottom="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Inscription"
+                        android:textColor="#ffff"
+                        android:layout_centerInParent="true"
+                        android:textSize="18sp"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+</RelativeLayout>
